@@ -7,7 +7,7 @@ Projeto inspirado no desafio do [Kaggle](https://www.kaggle.com/c/lish-moa).
 
 ## Problema:
 **Drug Discovery** é uma área interdisciplinar importante para o **descobrimento de novos fármacos** que buscam **aliviar sintomas** ou **tratamento de doenças**. Torna-se essencial, principalmente, pela atual conjuntura vivenciada pela pandemia do Coronavírus, que se tenta, justamente, buscar por esses **medicamentos**. <br>
-O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se house a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**.
+O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se house a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**, como expressão gênica e variabilidade celular.
 
 ## Objetivos:
 1. Prever se um **Mecanismo de Ação(MoA) foi** ativado.
