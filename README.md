@@ -7,7 +7,7 @@ Projeto inspirado no desafio do [Kaggle](https://www.kaggle.com/c/lish-moa).
 
 ## Problema:
 **Drug Discovery** é uma área interdisciplinar importante para o **descobrimento de novos fármacos** que buscam **aliviar sintomas** ou **tratamento de doenças**. Torna-se essencial, principalmente, pela atual conjuntura vivenciada pela pandemia do Coronavírus, que se tenta, justamente, buscar por esses **medicamentos**. <br>
-O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se house a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**, como expressão gênica e variabilidade celular.
+O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se houve a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**, como **expressão gênica**, **variabilidade celular** etc.
 
 ## Objetivos:
 1. Prever se um **Mecanismo de Ação(MoA) foi** ativado.
@@ -40,13 +40,13 @@ index| id	        | tratamento| tempo	| dose	| droga	    | g-0    | c-99
 4	 | id_001626bd3	| com_droga	| 72	| D2	| 7cbed3131	| -0.3254| 0.7125
 
 E o dataset de **resultados** é composto pelos Mecanismos de Ação e marcações se foram ativados ou não (1 ou 0, respectivamente). Pequena amostra abaixo:
-index| id	          | 5-alpha_reductase_inhibitor	  | 11-beta-hsd1_inhibitor	  | acat_inhibitor	  | acetylcholine_receptor_agonist
------|----------------|-------------------------------|---------------------------|-------------------|--------------------------------
-0	 | id_000644bb2	  | 0	                          | 0	                      | 0	              | 0
-1	 | id_000779bfc   | 0	                          | 0	                      | 0	              | 0
-2	 | id_000a6266a   | 0	                          | 0	                      | 0	              | 0
-3	 | id_0015fd391   | 0	                          | 0	                      | 0	              | 0
-4	 | id_001626bd3   | 0	                          | 0	                      | 0	              | 0
+index| id	          | 5-alpha_reductase_inhibitor	  | 11-beta-hsd1_inhibitor	  | acat_inhibitor	
+-----|----------------|-------------------------------|---------------------------|----------------
+0	 | id_000644bb2	  | 0	                          | 0	                      | 0	              
+1	 | id_000779bfc   | 0	                          | 0	                      | 0	              
+2	 | id_000a6266a   | 0	                          | 0	                      | 0	              
+3	 | id_0015fd391   | 0	                          | 0	                      | 0	              
+4	 | id_001626bd3   | 0	                          | 0	                      | 0	             
 
 ## Referências:
    * DESCONHECIDO. Drug discovery: passado, presente e futuro. Disponível em: https://docs.google.com/document/d/10EhrQBChlyYIcff3to7PrCQi5HcNk2r-zd2ZCKPtcz8/edit. Acesso em: 6 maio 2021.
