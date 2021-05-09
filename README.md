@@ -30,6 +30,23 @@ O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um c
     Conclusões obtidas dos resultados e de todo escopo.
 
 ## Entendendo a estrutura dos dados:
+O dataset de **experimentos** é composto, principalmente pelas informações gerais do registro, que são o id, tratamento, tempo, dose e droga, juntamente com as expressões gênicas (g-x) e as viabilidades celulares (c-x). Pequena amostra abaixo:
+index| id	        | tratamento| tempo	| dose	| droga	    | g-0    | c-99
+-----|--------------|-----------|-------|-------|-----------|--------|--------
+0	 | id_000644bb2	| com_droga	| 24	| D1	| b68db1d53	| 1.0620 | 0.4176
+1	 | id_000779bfc	| com_droga	| 72	| D1	| df89a8e5a	| 0.0743 | 0.7371
+2	 | id_000a6266a	| com_droga	| 48	| D1	| 18bb41b2c	| 0.6280 | 0.6931
+3	 | id_0015fd391	| com_droga	| 48	| D1	| 8c7f86626	| -0.5138| -0.8154
+4	 | id_001626bd3	| com_droga	| 72	| D2	| 7cbed3131	| -0.3254| 0.7125
+
+E o dataset de **resultados** é composto pelos Mecanismos de Ação e marcações se foram ativados ou não (1 ou 0, respectivamente). Pequena amostra abaixo:
+index| id	          | 5-alpha_reductase_inhibitor	  | 11-beta-hsd1_inhibitor	  | acat_inhibitor	  | acetylcholine_receptor_agonist
+-----|----------------|-------------------------------|---------------------------|-------------------|--------------------------------
+0	 | id_000644bb2	  | 0	                          | 0	                      | 0	              | 0
+1	 | id_000779bfc   | 0	                          | 0	                      | 0	              | 0
+2	 | id_000a6266a   | 0	                          | 0	                      | 0	              | 0
+3	 | id_0015fd391   | 0	                          | 0	                      | 0	              | 0
+4	 | id_001626bd3   | 0	                          | 0	                      | 0	              | 0
 
 ## Referências:
    * DESCONHECIDO. Drug discovery: passado, presente e futuro. Disponível em: https://docs.google.com/document/d/10EhrQBChlyYIcff3to7PrCQi5HcNk2r-zd2ZCKPtcz8/edit. Acesso em: 6 maio 2021.
@@ -38,8 +55,3 @@ O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um c
    * NATURE PORTFOLIO. Mechanism of action. Disponível em: https://www.nature.com/subjects/mechanism-of-action. Acesso em: 7 maio 2021.
    * WIKIPÉDIA. Expressão génica. Disponível em: https://pt.wikipedia.org/wiki/Express%C3%A3o_g%C3%A9nica. Acesso em: 7 maio 2021.
    * MAY, Olivia L.. Determining Cell Vitality​. Disponível em: https://www.caymanchem.com/news/determining-cell-vitality. Acesso em: 7 maio 2021.
-
-Como escrever um bom README:
-
-- Evidencie as particularidades do projeto;
-- Explique sobre a estrutura dos dados;
