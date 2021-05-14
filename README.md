@@ -3,7 +3,7 @@
 ![banner](https://github.com/vichShir/imersao-dados-desafio-final/blob/main/Imagens/banner.png) <br>
 Projeto de Data Science para auxiliar no processo de descoberta de novos medicamentos com Machine Learning.
 
-Projeto desenvolvido a partir do [Desafio Final Imersão Dados da Alura](https://www.kaggle.com/c/lish-moa).
+Projeto desenvolvido a partir do [Desafio Final Imersão Dados da Alura](https://github.com/alura-cursos/imersao-dados-desafio-final).
 
 ## Problema:
 **Drug Discovery** é uma área interdisciplinar importante para o **descobrimento de novos fármacos** que buscam **aliviar sintomas** ou **tratamento de doenças**. Torna-se essencial, principalmente, pela atual conjuntura vivenciada pela pandemia do Coronavírus, que se tenta, justamente, buscar por esses **medicamentos**. <br>
@@ -14,13 +14,13 @@ O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um c
 2. Prever se um **Mecanismo de Ação (MoA) não foi** ativado.
 
 ## Conteúdo:
-[**1. Entendendo o Problema**]()
-[**2. Coleta dos Dados**]()
-[**3. Processamento e Organização dos Dados**]()
-[**4. Análise Exploratória**]()
-[**5. Desenvolvimento de Modelos e Algoritmos**]()
-[**6. Visualização dos Dados**]()
-[**7. Tomada de Decisão**]()
+**1. Entendendo o Problema**<br>
+**2. Coleta dos Dados**<br>
+**3. Processamento e Organização dos Dados**<br>
+**4. Análise Exploratória**<br>
+**5. Desenvolvimento de Modelos e Algoritmos**<br>
+**6. Visualização dos Dados**<br>
+**7. Tomada de Decisão**<br>
 
 ## Entendendo a estrutura dos dados:
 O dataset de **experimentos** é composto, principalmente pelas informações gerais do registro, que são o id, tratamento, tempo, dose e droga, juntamente com as expressões gênicas (g-x) e as viabilidades celulares (c-x). Pequena amostra abaixo:
