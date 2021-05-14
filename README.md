@@ -3,31 +3,24 @@
 ![banner](https://github.com/vichShir/imersao-dados-desafio-final/blob/main/Imagens/banner.png) <br>
 Projeto de Data Science para auxiliar no processo de descoberta de novos medicamentos com Machine Learning.
 
-Projeto inspirado no desafio do [Kaggle](https://www.kaggle.com/c/lish-moa).
+Projeto desenvolvido a partir do [Desafio Final Imersão Dados da Alura](https://www.kaggle.com/c/lish-moa).
 
 ## Problema:
 **Drug Discovery** é uma área interdisciplinar importante para o **descobrimento de novos fármacos** que buscam **aliviar sintomas** ou **tratamento de doenças**. Torna-se essencial, principalmente, pela atual conjuntura vivenciada pela pandemia do Coronavírus, que se tenta, justamente, buscar por esses **medicamentos**. <br>
 O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se houve a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**, como **expressão gênica**, **viabilidade celular** etc.
 
 ## Objetivos:
-1. Prever se um **Mecanismo de Ação(MoA) foi** ativado.
-2. Prever se um **Mecanismo de Ação(MoA) não foi** ativado.
+1. Prever se um **Mecanismo de Ação (MoA) foi** ativado.
+2. Prever se um **Mecanismo de Ação (MoA) não foi** ativado.
 
-## Metodologia:
-#### **1. Levantamento das perguntas**
-    Definição de perguntas a serem respondidas.
-#### **2. Coleta dos Dados**
-    Busca das bases de dados.
-#### **3. Processamento e Organização dos Dados**
-    Padronização, limpeza, processamento e organização das informações das bases de dados.
-#### **4. Análise de Dados/Análise Exploratória**
-    Análise dos dados das bases a fim de averiguar suas principais características.
-#### **5. Desenvolvimento de Modelos e Algoritmos**
-    Definição dos modelos e algoritmos de predição de Machine Learning (ML).
-#### **6. Visualização dos Dados**
-    Visualização dos resultados dos modelos de ML e utilização de métricas para sua análise.
-#### **7. Tomada de Decisão**
-    Conclusões obtidas dos resultados e de todo escopo.
+## Conteúdo:
+[**1. Entendendo o Problema**]()
+[**2. Coleta dos Dados**]()
+[**3. Processamento e Organização dos Dados**]()
+[**4. Análise Exploratória**]()
+[**5. Desenvolvimento de Modelos e Algoritmos**]()
+[**6. Visualização dos Dados**]()
+[**7. Tomada de Decisão**]()
 
 ## Entendendo a estrutura dos dados:
 O dataset de **experimentos** é composto, principalmente pelas informações gerais do registro, que são o id, tratamento, tempo, dose e droga, juntamente com as expressões gênicas (g-x) e as viabilidades celulares (c-x). Pequena amostra abaixo:
