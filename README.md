@@ -5,15 +5,15 @@ Projeto de Data Science para auxiliar no processo de descoberta de novos medicam
 
 Projeto desenvolvido a partir do [Desafio Final Imersão Dados da Alura](https://github.com/alura-cursos/imersao-dados-desafio-final).
 
-## Problema:
+## 😵 Problema:
 **Drug Discovery** é uma área interdisciplinar importante para o **descobrimento de novos fármacos** que buscam **aliviar sintomas** ou **tratamento de doenças**. Torna-se essencial, principalmente, pela atual conjuntura vivenciada pela pandemia do Coronavírus, que se tenta, justamente, buscar por esses **medicamentos**. <br>
 O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um composto pode se referir aos seus **efeitos**, assim podemos monitorar se houve a sua **ativação ou não**. Isso pode **contribuir** na ajuda na **descoberta de novos fármacos**, a partir de uma **determinada assinatura**, como **expressão gênica**, **viabilidade celular** etc.
 
-## Objetivos:
+## 🎯 Objetivos:
 1. Prever se um **Mecanismo de Ação (MoA) foi** ativado.
 2. Prever se um **Mecanismo de Ação (MoA) não foi** ativado.
 
-## Conteúdo:
+## 📚 Conteúdo:
 **1. Entendendo o Problema**<br>
 **2. Coleta dos Dados**<br>
 **3. Processamento e Organização dos Dados**<br>
@@ -22,7 +22,7 @@ O **Mechanism of Action (MoA)**, termo inglês para Mecanismo de Ação, de um c
 **6. Visualização dos Dados**<br>
 **7. Tomada de Decisão**<br>
 
-## Entendendo a estrutura dos dados:
+## 🎲 Entendendo a estrutura dos dados:
 O dataset de **experimentos** é composto, principalmente pelas informações gerais do registro, que são o id, tratamento, tempo, dose e droga, juntamente com as expressões gênicas (g-x) e as viabilidades celulares (c-x). Pequena amostra abaixo:
 index| id	        | tratamento| tempo	| dose	| droga	    | g-0    | c-99
 -----|--------------|-----------|-------|-------|-----------|--------|--------
@@ -41,7 +41,7 @@ index| id	          | 5-alpha_reductase_inhibitor	  | 11-beta-hsd1_inhibitor	  |
 3	 | id_0015fd391   | 0	                          | 0	                      | 0	              
 4	 | id_001626bd3   | 0	                          | 0	                      | 0	             
 
-## Referências:
+## 📖 Referências:
    * DESCONHECIDO. Drug discovery: passado, presente e futuro. Disponível em: https://docs.google.com/document/d/10EhrQBChlyYIcff3to7PrCQi5HcNk2r-zd2ZCKPtcz8/edit. Acesso em: 6 maio 2021.
    * DESCONHECIDO. Expressão gênica: o caminho da informação biológica. Disponível em: https://docs.google.com/document/d/1TR-Q1cb2k_-S_MZC-60PMN2CbVGZbLMKT0Lr_didPY0/edit. Acesso em: 6 maio 2021.
    * NATURE PORTFOLIO. Drug discovery. Disponível em: https://www.nature.com/subjects/drug-discovery. Acesso em: 7 maio 2021.
